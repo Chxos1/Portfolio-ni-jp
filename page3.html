@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>john paul</title>
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+    <link rel="stylesheet" href="page3.css" />
+
+    <!--Favicon-->
+    <link rel="icon" id="favicon" href="">
+
+    <!--javascript-->
+    <script src="page3.js"></script>
+
+    <!-- Font Awesome for audio button -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+</head>
+
+<body text="white" oncontextmenu="return false;" onkeydown="return false;" onmousedown="return false;"
+    onclick="document.getElementById('kanta').play()" id="entry-overlay">
+
+    <!--Welcome to card-->
+    <div class="entry-overlay" id="entryOverlay">
+        <div class="entry-message">ᴄʟɪᴄᴋ ᴛᴏ ᴇɴᴛᴇʀ.</div>
+    </div>
+
+    <!-- ✅ Background video -->
+    <video autoplay muted loop playsinline class="bg-video">
+        <source src="video3.mp4" type="video/mp4">
+    </video>
+    <div class="bg-overlay"></div>
+
+    <audio
+        src="https://cdn.discordapp.com/attachments/1364189669683888138/1410947232231854163/Day2Day_mp3cut.net.mp3?ex=68b8cd42&is=68b77bc2&hm=a332924bf2aee5be343967dc34a51ff583df1a908ae03d8285b46a8e84b0beec&"
+        autoplay id="kanta" loop></audio>
+</body>
+
+<body>
+    <header>
+        <ul class="navmenu">
+            <!-- 🔊 Audio Button on the left -->
+            <div class="audio-icon playing" id="toggleBtn">
+                <i id="icon" class="fas fa-volume-up"></i>
+            </div>
+        </ul>
+    </header>
+
+    <!-- owner badge -->
+    <div class="profile-card">
+        <div class="owner-badge">
+            <img src="https://i.pinimg.com/originals/9b/58/23/9b5823d7f5f28ddbd26a6dfb7b50f4b1.gif" alt="Owner badge">
+            <div class="tooltip">LYNX</div>
+        </div>
+
+        <!-- Card -->
+        <div id="profile">
+            <img id="avatar" src="" alt="Avatar">
+            <div id="status-circle" class="status"></div>
+        </div>
+        <!-- Nickname -->
+        <h1 class="glowing-text">
+            LYNX
+        </h1>
+        <!-- Bio -->
+        <p id="typewriter2">Hi</p>
+
+        <div class="card">
+            <div class="activity-container">
+                <img id="activity-img" src="" alt="Activity Image">
+                <div class="activity-info">
+                    <p id="activity">Loading...</p>
+                    <p id="time-playing"></p>
+                </div>
+            </div>
+        </div>
+
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+        <!-- social media -->
+        <div class="social-links">
+            <a href="https://open.spotify.com/user/31yoavqutk5fxo4sas2u4zcqls6i?si=48-p8iYlQb2z85b60hGZzA"
+                target="_blank" class="social-icon">
+                <img src="spotify.png" alt="Spotify">
+            </a>
+            <a href="https://www.instagram.com/xclsv.mlna?igsh=MXNpYndibDBxZmt2bw==" target="_blank"
+                class="social-icon">
+                <img src="instagram.png" alt="Instagram">
+            </a>
+            <a href="https://github.com/Chxos1" target="_blank" class="social-icon">
+                <img src="github.png" alt="GitHub">
+            </a>
+        </div>
+
+        <!-- copyright hhhh -->
+        <div class="views">
+            <a href="mlna.html" class="back">
+                &#10229; Go back home
+            </a>
+        </div>
+    </div>
